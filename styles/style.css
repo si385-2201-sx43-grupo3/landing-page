@@ -107,7 +107,9 @@ main{
     padding-left: 3%;
 
 }
+#row-lugares{
 
+}
 .title-lugares{
     text-decoration: none;
     color: #c94243;
@@ -196,7 +198,10 @@ main{
     width: 50%;
 }
 
+footer{
+    background-color: #D9C9BF;
 
+}
 .container2{
     padding-top: 90px;
     padding-left: 15%;
@@ -207,13 +212,35 @@ h5{
     font-weight: bolder;
     color: #091146;
 }
+h6{
+    font-family: 'Poppins', sans-serif;
+    color: #5D616F;
+}
+.h7{
+    padding-top: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: #5D616F;
+    font-weight: bold;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: revert;
+    padding-top: 15px;
+    color: #5D616F;
+}
 
-
-
+.img-footer{
+    width: 80%;
+    padding-left: 10%;
+}
 .img-tiendas{
     width: 85%;
 }
+.img-redes{
+    padding-left: 10%;
+    width: 40%;
 
+}
 .border{
     border-color: white;
 }
@@ -237,7 +264,10 @@ h5{
     height: 950px;
     position: relative;
 }
-
+#text-Registrate{
+    Color:white;
+    font-size: 200%;
+}
 .img-app{
     padding-top: 28%;
     width: 35%;
