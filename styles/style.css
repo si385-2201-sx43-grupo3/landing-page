@@ -170,33 +170,3 @@ main{
     color: #091146;
 
 }
-.img-card{
-    width: 100%;
-    padding: 30%;
-
-}
-.title-clasificacion{
-    font-family: 'Inter', sans-serif;
-    font-weight: bold;
-    padding-top: 10%;
-    position:relative;
-    font-size: 200%;
-    color: #091146;
-}
-.img-card-lugares{
-    width: 101%;
-    padding-left: -10px;
-}
-.img-card-clasi{
-    position: relative;
-    width: 500%;
-}
-.img-mariana{
-    padding-top: 19%;
-    padding-left: 20%;
-    position: absolute;
-    width: 50%;
-}
-
-
-
