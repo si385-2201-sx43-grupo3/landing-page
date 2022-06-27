@@ -12,7 +12,7 @@
 </head>
 <body>
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container">
             <a class="navbar-brand " href="#"><img class="logo d-inline-block align-text-top" src="images/logo.png" alt="TravelTool" >TravelTool</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,23 +41,87 @@
         </div>
     </nav>
     <div class="container">
-        <img class="img2" src="images/fondo2.png" alt="viajeros">
+        <img class="img2" src="images/Mock-ups.png" alt="app">
         <div class="title">Viaja, conoce y disfruta <br>de una experiencia <br>inolvidable<br></div><br><br>
-        <div class="subtitle">Si estas pensando en viajar no dudes en <br>contratar servicios exclusivos de TravelTooL,<br> que cuena con muchos descuentos. <br>Asi que empezemos...<br></div>
-        <button class="btn-iniciar mt-8">Descargar</button>
-        <button class="btn-discount btn-outline-success" href="#row-crearCuenta" >Registrarse</button>
+        <div class="subtitle">Si estas pensando en viajar no dudes en contratar <br>servicios exclusivos de TravelTooL, que cuena con muchos<br> descuentos. <br><br>Asi que empezemos...<br></div>
+        <img class="img3" src="images/botones.png" alt="botones">
+
     </div>
 </header>
 
 <main>
+    <div CLASS="row" id="row-planes">
+        <div class="Title3 text-center"><br>NUESTROS PLANES<br></div>
+        <h1 class="text-center">Mejora tu experiencia eligiendo un plan.</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100 w-75">
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">BASIC</h5>
+                        <p class="precio text-center"> GRATIS</p>
+                        <p class="subPrecio text-center">S/ 0.00<br>por mes</p>
+                        <button type="button" class="btn-plan btn-primary btn-lg mt-4 ">Elegir</button>
+                        <p class="card-text text-center">Notificaciones de las recientes publicaciones de nuevas atracciones y zonas turisticas </p>
+                        <hr>
+                        <p class="card-text text-center">Recomendacion de las nuevas zonas turisticas que puede visitar </p>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 w-75">
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">STANDARD</h5>
+                        <p class="precio text-center"> S/ 13.31</p>
+                        <p class="subPrecio text-center">por mes</p>
+                        <button type="button" class="btn-plan btn-primary btn-lg mt-4 ">Elegir</button>
+                        <p class="card-text text-center">Notificaciones de las recientes publicaciones de nuevas atracciones y zonas turisticas </p>
+                        <hr>
+                        <p class="card-text text-center">Recomendacion de las nuevas zonas turisticas que puede visitar </p>
+                        <hr>
+                        <p class="card-text text-center">7% descuento en hotel </p>
+                        <hr>
+                        <p class="card-text text-center">7% descuento en restaurante </p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100 w-75">
+
+                    <div class="card-body">
+                        <h5 class="card-title text-center">PREMIUM</h5>
+                        <p class="precio text-center"> S/ 39.94</p>
+                        <p class="subPrecio text-center">por mes</p>
+                        <button type="button" class="btn-plan btn-primary btn-lg mt-4 ">Elegir</button>
+                        <p class="card-text text-center">Caracteristicas del plan BASIC + </p>
+                        <hr>
+                        <p class="card-text text-center">25% descuento en paquetes turisticos </p>
+                        <hr>
+                        <p class="card-text text-center">25% descuento en pasajes de empresas de turismo </p>
+                        <hr>
+                        <p class="card-text text-center">10% descuento en hotel </p>
+                        <hr>
+                        <p class="card-text text-center">10% descuento en restaurante</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="text-success"><br><br><hr></div>
+
+    </div>
     <div CLASS="row" id="row-explorar">
         <div class="Title2 "><br>EXPLORAR<br></div>
         <div class="col mt-4">
             <div class="row row-cols-1 row-cols-md-4">
-                <div class="col"><div class="card "><img class="img-card" src="images/montaña.png"  alt="montaña-icono"></div></div>
-                <div class="col"><div class="card"><img class="img-card" src="images/restaurante.png"  alt="restaurante-icono"></div></div>
-                <div class="col"><div class="card"><img class="img-card" src="images/cama.png"  alt="cama-icono"></div></div>
-                <div class="col"><div class="card"><img class="img-card" src="images/clasificacion.png"  alt="clasificacion-icono"></div></div>
+                <div class="col"><button class="card"><img class="img-card" src="images/montaña.png"  alt="montaña-icono"></button></div>
+                <div class="col"><button class="card"><img class="img-card" src="images/restaurante.png"  alt="restaurante-icono"></button></div>
+                <div class="col"><button class="card"><img class="img-card" src="images/cama.png"  alt="cama-icono"></button></div>
+                <div class="col"><button class="card"><img class="img-card" src="images/clasificacion.png"  alt="clasificacion-icono"></button></div>
             </div>
             <br><br><br><br>
         </div>
@@ -187,7 +251,7 @@
     </div>
     <div class="row" id="row-crearCuenta">
         <div class="container">
-            <div class="row "><img class="img-app" src="images/app.png"  alt="aplicacion"></div>
+            <div class="row "><img class="img-app" src="images/SSSS%201.png"  alt="aplicacion"></div>
             <div class="col" id="col-new">
                 <div class="col text-center" ><h5 id="text-Registrate">Registrate</h5></div>
                 <form class="row g-3 needs-validation" novalidate>
